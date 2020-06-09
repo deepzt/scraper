@@ -87,7 +87,7 @@ try:
         temp = link.attrs["href"]
         all_links.append(temp)
 except:
-    print(" [*] No Links found!")
+    print(" [*] Not an usual thing!!")
 
         #############################################################
 all_links_info = dict(zip(all_links_text, all_links))
